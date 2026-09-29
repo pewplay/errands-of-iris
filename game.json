@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/pewplay/pewplay/main/schema/game.schema.json",
+  "title": "Errands of Iris",
+  "description": "Drill underground as a unicorn, scoop up rainbow dust and grow a rainbow bridge for the goddess Iris in this free game you play in your browser.",
+  "about": "Iris, goddess of the rainbow and messenger of the gods, has a message to deliver, and she can only travel by rainbow. As her unicorn you dive into the ground horn first and carve your own tunnel through sand and clay, collecting the rainbow dust buried below.\n\nEvery run is a push-your-luck gamble. Your momentum only fades as you dig, clay slows you down far more than sand, and only dense dust patches give you a burst of speed. Dig deeper for a richer haul or turn back and resurface before you stall. When the run ends, the camera retraces your tunnel, the rainbow floods back through it and a bow sprouts from the hole, bigger the more dust you carried. Come up far enough from where you went in and you earn a double rainbow. Seeded maps and a high score table let you replay and perfect a route.\n\nOriginally created by Jerome Lecomte (herebefrogs) for js13kGames 2026.",
+  "howToPlay": "Pick Start and your unicorn dives into the ground on its own, always moving forward; you only choose the direction. Collect rainbow dust for points and aim for the dense patches, which are the only thing that restores your speed. The run ends when you run out of momentum or break back through the surface, and your score adds up the dust collected and the length of new tunnel carved.",
+  "controls": [
+    { "input": "Arrow keys / WASD", "action": "Steer the drill" },
+    { "input": "Drag (touch or mouse)", "action": "Steer with a floating joystick" },
+    { "input": "Tap / Enter", "action": "Choose menu items" },
+    { "input": "M", "action": "Change the volume" },
+    { "input": "P", "action": "Pause" }
+  ],
+  "tips": [
+    "Steer through dense dust patches whenever you can, since they are the only way to win back speed.",
+    "Avoid dark brown clay, which drains your momentum much faster than light sand.",
+    "Resurfacing between a quarter and most of a screen away from your entry hole grows a double rainbow.",
+    "Retrying a seed from the High scores list lets you plan a better route through the same underground."
+  ],
+  "faq": [
+    { "question": "Is Errands of Iris free to play?", "answer": "Yes, it is completely free and runs in your browser with nothing to install." },
+    { "question": "Can I play on a phone or tablet?", "answer": "Yes. Drag anywhere on the screen to steer with a floating joystick and tap the menu items; it works in portrait and landscape." },
+    { "question": "Can I lose in Errands of Iris?", "answer": "No, every run ends with a score. Any dust you collected grows a rainbow, and a run with no dust simply grows none." }
+  ],
+  "category": "Arcade",
+  "tags": ["unicorn", "rainbow", "digging", "casual", "high score", "pixel art"],
+  "author": "Jerome Lecomte (herebefrogs)",
+  "playMode": "SinglePlayer",
+  "orientation": "any",
+  "cover": "cover.png",
+  "screenshots": ["screenshots/1.png", "screenshots/2.png", "screenshots/3.png"],
+  "added": "2026-09-28",
+  "draft": false
+}
